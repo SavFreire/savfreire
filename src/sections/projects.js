@@ -13,8 +13,8 @@ const data = [
     id: 1,
     imgSrc: Blue,
     altText: 'Blog',
-    title: 'Blog',
     postLink: 'https://blog.savfreire.com/',
+    title: 'Blog',
     text:
       'This is a simple blog with a search bar, showing most recent blogs and categorizing the blogs. I also added a cute animation on the homepage. This is not an interactive webpage, it is mainly for admin to add,remove or edit blog pposts. This was one of my first projects',
   },
@@ -22,8 +22,8 @@ const data = [
     id: 2,
     imgSrc: Yellow,
     altText: 'Pets Of Portugal',
-    title: 'Pets Of Portugal',
     postLink: 'https://www.petsofportugal.com/',
+    title: 'Pets Of Portugal',
     text:
       'This is my second project that includes filtering and an email contact page. In the future I will add reviews too.',
   },
