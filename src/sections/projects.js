@@ -33,7 +33,7 @@ const data = [
     altText: 'TBC',
     title: 'TBC',
     text:
-      'I dont know yet.',
+      'Coming soon.',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const data = [
     altText: 'TBC',
     title: 'TBC',
     text:
-      'Something with payments .. subscription or marketplace.',
+      'Website with payments .. subscription or marketplace.',
   },
 ];
 

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import PostThumb1 from 'assets/blog/blog1.jpg';
-import PostThumb2 from 'assets/blog/blog1.jpg';
-import PostThumb3 from 'assets/blog/blog1.jpg';
+import PostThumb2 from 'assets/blog/loading.jpg';
+import PostThumb3 from 'assets/blog/loading.jpg';
 
 export const data = [
   {
@@ -11,7 +11,7 @@ export const data = [
     postLink: 'https://justdjango.com/blog/build-a-blog-with-django',
     title: 'Blog Tutorial',
     authorName: 'Savannah Freire',
-    date: 'Oct 20, 2020',
+    date: 'Apr 25, 2022',
   },
   {
     id: 2,
