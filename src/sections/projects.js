@@ -60,6 +60,7 @@ export default function Feature() {
           key={item.id}
           src={item.imgSrc}
           alt={item.altText}
+          postLink={item.postLink}
           title={item.title}
           text={item.text}
           />

@@ -1,9 +1,10 @@
 /** @jsx jsx */
-import { jsx, Image, Box, Heading, Text } from 'theme-ui';
+import { jsx, Image, Box, Heading, Text, Link } from 'theme-ui';
 
 export default function FeatureCard({
   src,
   altText = 'default alt text',
+  postLink,
   title,
   text,
 }) {
@@ -11,7 +12,11 @@ export default function FeatureCard({
     <Box sx={styles.card}>
       <Image src={src} altText={altText} sx={styles.img}/>
       <Box sx={styles.wrapper}>
-        <Heading sx={styles.wrapper.title}>{title}</Heading>
+        <Heading sx={styles.wrapper.title}>
+        <Link href={postLink}>
+            {title}
+        </Link>
+        </Heading>
         <Text sx={styles.wrapper.subTitle}>{text}</Text>
       </Box>
     </Box>
